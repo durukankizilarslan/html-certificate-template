@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sert'fika Taslak</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        box-sizing: border-box;
+        padding: 0;
+      }
+      .cert-outer-wrapper {
+        box-sizing: border-box;
+        width: 297mm; /* A4 width */
+        height: 210mm; /* A4 height */
+        padding: 3.5%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("Sertifika_Arka_Plan.jpg");
+      }
+
+      .cert-inner-wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: green;
+      }
+
+      .cert-sidebar-info {
+        background-color: yellow;
+        width: 17%;
+        height: 100%;
+        margin: 0;
+      }
+
+      .cert-main-body {
+        width: 83%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: aquamarine;
+      }
+
+      .cert-institution-info {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cert-outer-wrapper">
+      <div class="cert-inner-wrapper">
+        <div class="cert-main-body">
+
+            <!-- Sertifika Basligi ve Kurum Bilgisi  -->
+          <div class="cert-institution-info">
+            <h1>University</h1>
+            <h2>Education</h2>
+            <h1>Certificate</h1>
+          </div>
+
+          <!-- Sertifika Alan, Sertifika Bilgisi ve Sertifikayi Veren Kisi Bilgisi  -->
+          <div class="cert-participation-info">
+            <div class="participant-name"><span>Enes AKKILIÇ</span></div>
+            <div class="course-name"><span>Course name:</span> <span>KAYNAKÇI</span></div>
+            <div class="participation-info"> asdf;lkasdf;ksad;flkasd;fkasd;fasf;k</div>
+            <div class="hander-info"></div>
+          </div>
+
+          <!-- Sertifika Footer Bölümü -->
+          <div class="cert-footer-info">
+            <div class="footer-cert-info"><p>asdflkasdlfkmsadflkmsdlfkmsadlfkmasdflkmasdflkasdfklmsadflkm</p></div>
+            <div class="footer-qr-numbers"></div>
+            <div class="footer-right"></div>
+          </div>
+        </div>
+
+        <div class="cert-sidebar-info"></div>
+      </div>
+    </div>
+  </body>
+</html>
